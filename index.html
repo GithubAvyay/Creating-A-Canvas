@@ -11,11 +11,9 @@ canvas {
 </head>
 <body onload="startGame()">
 <script>
-
 function startGame() {
     myGameArea.start();
 }
-
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
@@ -25,7 +23,6 @@ var myGameArea = {
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
     }
 }
-
 </script>
 </body>
 </html>
